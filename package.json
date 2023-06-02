@@ -1,0 +1,46 @@
+{
+  "name": "@cutetn/react-mustable",
+  "type": "module",
+  "version": "1.0.8",
+  "description": "A package to work with React Typescript mutable states.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && npm run fix-dist-imports",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fix-dist-imports": "node fix-dist-imports.js",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CuteTN/react-mustable.git"
+  },
+  "keywords": [
+    "react-mustable",
+    "mustable"
+  ],
+  "author": "CuteTN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CuteTN/react-mustable/issues"
+  },
+  "homepage": "https://github.com/CuteTN/react-mustable#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.1",
+    "typescript": "^5.0.4"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+}
